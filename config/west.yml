@@ -1,15 +1,18 @@
 manifest:
-  # defaults:
-  #   revision: v0.3
   remotes:
-    - name: rockyzhang24
-      url-base: https://github.com/rockyzhang24
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: rockyzhang24
+      url-base: https://github.com/rockyzhang24
   projects:
     - name: zmk
-      remote: rockyzhang24
-      revision: v0.3.1
+      remote: zmkfirmware
+      revision: v0.3
       import: app/west.yml
+    - name: zmk-nice-view-zelda
+      remote: rockyzhang24
+      revision: main
   self:
     path: config
