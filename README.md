@@ -13,6 +13,8 @@ quality. Then choose an appropriate dithering method and save the resulting 1-bi
 a C array. Set the "Color format" to `CF_INDEXED_1_BIT` and the "File name(s)" should be a valid
 C identifier as it will be used as the variable name for this array.
 
+[ResizePixel](https://www.resizepixel.com/) is a good option to crop, rotate and resize images.
+
 ### Create the ZMK module
 
 1. First, use [ZMK module template](https://github.com/zmkfirmware/zmk-module-template) to create
