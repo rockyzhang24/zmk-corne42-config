@@ -1,3 +1,5 @@
+<img width="5712" height="2022" alt="IMG_6045" src="https://github.com/user-attachments/assets/35ce1594-2782-470f-95b6-669a7984a359" />
+
 ## How to change the image on the right hand peripheral nice!view screen
 
 Using replacing the image on the nice!view of the right half of Corne 42 as an example.
